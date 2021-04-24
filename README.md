@@ -60,3 +60,14 @@
         new file:   app/users/migrations/__pycache__/__init__.cpython-39.pyc
         modified:   config/__pycache__/settings.cpython-39.pyc
         modified:   config/settings.py
+
+### 3.4 Creating CustomUser model
+
+        modified:   README.md
+        modified:   app/users/__pycache__/models.cpython-39.pyc
+        new file:   app/users/migrations/0001_initial.py
+        new file:   app/users/migrations/__pycache__/0001_initial.cpython-39.pyc
+        modified:   app/users/models.py
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
+        modified:   db.sqlite3
