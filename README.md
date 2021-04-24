@@ -76,3 +76,11 @@
 
         modified:   README.md
         new file:   app/users/forms.py
+
+### 3.6 Creating Custom User Admin
+
+        modified:   app/users/__pycache__/admin.cpython-39.pyc
+        new file:   app/users/__pycache__/forms.cpython-39.pyc
+        modified:   app/users/admin.py
+        modified:   app/users/forms.py
+        modified:   db.sqlite3
