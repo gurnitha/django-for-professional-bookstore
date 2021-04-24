@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # first party apps
     'app.users.apps.UsersConfig',
+    'app.pages.apps.PagesConfig',
 ]
 
 MIDDLEWARE = [

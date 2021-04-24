@@ -119,3 +119,40 @@
         new file:   app/pages/models.py
         new file:   app/pages/tests.py
         new file:   app/pages/views.py
+
+### 4.2 Register pages app to project root
+
+        (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> tree app /f
+        Folder PATH listing
+        Volume serial number is DC72-8D6C
+        E:\2021\DJANGO\PROJECTSEXEBOOKS\BOOKSTORE10K\SRC\APP
+        ├───pages
+        │   │   admin.py
+        │   │   apps.py
+        │   │   models.py
+        │   │   tests.py
+        │   │   views.py
+        │   │   __init__.py
+        │   │
+        │   ├───migrations
+        │   │   │   __init__.py
+        │   │   │
+        │   │   └───__pycache__
+        │   │           __init__.cpython-39.pyc
+        │   │
+        │   └───__pycache__
+        │           admin.cpython-39.pyc
+        │           apps.cpython-39.pyc
+        │           models.cpython-39.pyc
+        │           __init__.cpython-39.pyc
+        │
+        └───users
+        modified:   README.md
+        new file:   app/pages/__pycache__/__init__.cpython-39.pyc
+        new file:   app/pages/__pycache__/admin.cpython-39.pyc
+        new file:   app/pages/__pycache__/apps.cpython-39.pyc
+        new file:   app/pages/__pycache__/models.cpython-39.pyc
+        modified:   app/pages/apps.py
+        new file:   app/pages/migrations/__pycache__/__init__.cpython-39.pyc
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
