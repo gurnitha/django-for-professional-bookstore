@@ -84,3 +84,21 @@
         modified:   app/users/admin.py
         modified:   app/users/forms.py
         modified:   db.sqlite3
+
+### 3.7 Testing
+
+        modified:   README.md
+        new file:   app/users/__pycache__/tests.cpython-39.pyc
+        modified:   app/users/tests.py
+
+        (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> python manage.py test app.users.tests
+        Creating test database for alias 'default'...
+        System check identified no issues (0 silenced).
+        ..
+
+        ---
+
+        Ran 2 tests in 0.279s
+
+        OK
+        Destroying test database for alias 'default'...
