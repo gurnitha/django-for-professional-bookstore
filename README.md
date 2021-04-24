@@ -102,3 +102,20 @@
 
         OK
         Destroying test database for alias 'default'...
+
+## CHAPTER 4: Pages App
+
+### 4.1 Create 'pages' app
+
+    (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> mkdir app\pages
+
+    (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> python manage.py startapp pagrs.testses app\pages
+
+        modified:   README.md
+        new file:   app/pages/__init__.py
+        new file:   app/pages/admin.py
+        new file:   app/pages/apps.py                                                         ustom User Admin"
+        new file:   app/pages/migrations/__init__.py
+        new file:   app/pages/models.py
+        new file:   app/pages/tests.py
+        new file:   app/pages/views.py
