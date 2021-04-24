@@ -27,3 +27,24 @@
                 urls.py
                 wsgi.py
                 __init__.py
+
+### 3.2 Creating users app for Custom User Model
+
+    (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> mkdir app\users
+
+    (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> python manage.py startapp users  app\users
+
+    (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> tree app /f
+    Folder PATH listing
+    Volume serial number is DC72-8D6C
+    E:\2021\DJANGO\PROJECTSEXEBOOKS\BOOKSTORE10K\SRC\APP
+    └───users
+        │   admin.py
+        │   apps.py
+        │   models.py
+        │   tests.py
+        │   views.py
+        │   __init__.py
+        │
+        └───migrations
+                __init__.py
