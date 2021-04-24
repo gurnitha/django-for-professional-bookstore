@@ -48,3 +48,15 @@
         │
         └───migrations
                 __init__.py
+
+### 3.3 Install users app to root dir
+
+        modified:   README.md
+        new file:   app/users/__pycache__/__init__.cpython-39.pyc
+        new file:   app/users/__pycache__/admin.cpython-39.pyc
+        new file:   app/users/__pycache__/apps.cpython-39.pyc
+        new file:   app/users/__pycache__/models.cpython-39.pyc
+        modified:   app/users/apps.py
+        new file:   app/users/migrations/__pycache__/__init__.cpython-39.pyc
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
