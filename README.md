@@ -182,3 +182,15 @@
         modified:   README.md
         modified:   app/pages/__pycache__/tests.cpython-39.pyc
         modified:   app/pages/tests.py
+
+### 4.5 Final test
+
+        (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> python manage.py test app.pages.tests
+        System check identified no issues (0 silenced).
+        .....
+        ----------------------------------------------------------------------
+        Ran 5 tests in 0.056s
+
+        modified:   README.md
+        modified:   app/pages/__pycache__/tests.cpython-39.pyc
+        modified:   app/pages/tests.py
