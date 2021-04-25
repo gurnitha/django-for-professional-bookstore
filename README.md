@@ -234,3 +234,39 @@
         
         Homepage
         Hi admin@admin.com!
+
+### 5.4 Django Source Code        
+
+        https://github.com/django/django/blob/b9cf764be62e77b4777b3a75ec256f6209a57671/django/contrib/auth/urls.py
+
+        # django/contrib/auth/urls.py
+        from django.contrib.auth import views
+        from django.urls import path
+
+        urlpatterns = [
+            path('login/', views.LoginView.as_view(), name='login'),
+            path('logout/', views.LogoutView.as_view(), name='logout'),
+
+            path('password_change/', views.PasswordChangeView.as_view(), name='password_change'),
+            path('password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
+            
+            path('password_reset/', views.PasswordResetView.as_view(), name='password_reset'),
+            path('password_reset/done/', views.PasswordResetDoneView.as_view(), name='password_reset_done'),
+            path('reset/<uidb64>/<token>/', views.PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
+            path('reset/done/', views.PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+        ]        
+
+### 5.5 Login
+
+        # After logged in and then logged out from the admin panel, then when clicked the login url, it displayed error:   
+        TemplateDoesNotExist at /accounts/login/
+        registration/login.html      
+
+        # How to solve it?
+        > create login page at: registration/login.html 
+
+        # add login form template
+
+        modified:   README.md
+        modified:   db.sqlite3
+        new file:   templates/registration/login.html
