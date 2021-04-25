@@ -219,7 +219,18 @@
         accounts/ password_reset/done/ [name='password_reset_done']
         accounts/ reset/<uidb64>/<token>/ [name='password_reset_confirm']
         accounts/ reset/done/ [name='password_reset_complete']
-        
+
         modified:   README.md
         modified:   config/__pycache__/urls.cpython-39.pyc
         modified:   config/urls.py
+
+### 5.3 Modify the Homepage to check if a user is already logged in or not     
+
+        # reference
+        https://docs.djangoproject.com/en/2.2/topics/auth/default/#module-django.contrib.auth.views
+
+        # the result
+        http://127.0.0.1:8000/
+        
+        Homepage
+        Hi admin@admin.com!
