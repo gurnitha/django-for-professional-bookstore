@@ -194,3 +194,11 @@
         modified:   README.md
         modified:   app/pages/__pycache__/tests.cpython-39.pyc
         modified:   app/pages/tests.py
+
+## CHAPTER 5: User Registration
+
+### 5.1 Checking the auth app is installed
+
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py
