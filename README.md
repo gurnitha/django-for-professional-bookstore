@@ -159,3 +159,22 @@
 
 ### 4.3 Template, URLs and Views
 
+        modified:   README.md
+        new file:   app/pages/__pycache__/urls.cpython-39.pyc
+        new file:   app/pages/__pycache__/views.cpython-39.pyc
+        new file:   app/pages/urls.py
+        modified:   app/pages/views.py
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/__pycache__/urls.cpython-39.pyc
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/_base.html
+        new file:   templates/home.html
+
+### 4.4 Testing
+
+        (venv39227) PS E:\2021\DJANGO\ProjectsExEbooks\BookStore10k\src> python manage.py test app.pages.tests
+        System check identified no issues (0 silenced).
+        ..
+        ----------------------------------------------------------------------
+        Ran 2 tests in 0.028s
