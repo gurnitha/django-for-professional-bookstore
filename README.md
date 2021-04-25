@@ -156,3 +156,6 @@
         new file:   app/pages/migrations/__pycache__/__init__.cpython-39.pyc
         modified:   config/__pycache__/settings.cpython-39.pyc
         modified:   config/settings.py
+
+### 4.3 Template, URLs and Views
+
