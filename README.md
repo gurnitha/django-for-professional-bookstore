@@ -177,4 +177,8 @@
         System check identified no issues (0 silenced).
         ..
         ----------------------------------------------------------------------
-        Ran 2 tests in 0.028s
+        Ran 4 tests in 0.028s
+
+        modified:   README.md
+        modified:   app/pages/__pycache__/tests.cpython-39.pyc
+        modified:   app/pages/tests.py
